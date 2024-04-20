@@ -1,0 +1,559 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+:root{
+    --header-color: rgb(30, 33, 46);
+    --text-color: rgb(144, 223, 219);
+    --bg-color: rgba(30, 33, 46, 0.900);
+    --text2-color: white ;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+    position: relative;
+}
+ 
+
+
+/* head section styling codes*/
+
+#head{
+    background-color: var(--header-color);
+    overflow: hidden;
+    height: 770px;
+}
+
+#head header{
+    
+    width: 100%;
+    position: fixed;
+   
+    height: 70px;
+    z-index: 10;
+    display: flex;
+    justify-content: right;
+    transition: 3s;
+}
+
+#head header a{
+    right: 100px;
+    position: relative;
+    text-align: center;
+    width: 2cm;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 2.5mm;
+    margin: 3mm;
+    
+    align-items: center;
+    font-size: 20px;
+}
+
+.headactive{
+    display: flex;
+}
+
+.headcoloring{
+    background-color: rgba(30, 33, 46, 0.651);
+}
+#head header a:hover{
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px white;
+}
+#head header a:focus{
+    background-color: white;
+    color: var(--header-color);
+}
+
+
+#menusvg{
+   
+    position: fixed;
+    right: 10px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    transform: translateY(-5%);
+    margin-right: 0.5cm;
+    margin-top: 0.5cm;
+    display: none;
+    fill:white;
+    stroke:white;
+    stroke-width: 3px; 
+    z-index: 15;
+    
+
+}
+#menusvg:hover{
+   stroke-width: 20px;
+   fill: none;
+   stroke: var(--text-color);
+}
+
+
+
+
+.headcontianer{
+    z-index: 9;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.imgcontainer{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 9;
+}
+.imgcontainer img{
+    opacity: 90%;
+    justify-content: right;
+    
+}
+.headcontaint{
+    padding-top: 70px;
+    padding-left: 140px;
+    z-index: 10;
+   
+}
+#headerh11{
+    font-size: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text2-color);
+}
+#headerh12{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 2pt var(--text-color);
+}
+#headerh13{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+
+}
+
+#headerp{
+    margin-top: 50px;
+    font-size: 26px;
+    color: var(--text2-color);
+    width: 340.5px;
+}
+
+.links{
+    margin-top: 1cm;
+    display: flex;
+    
+}
+
+.linkcontainer{
+    height: 1.5cm;
+    width: 1.5cm;
+    background-color: white;
+    margin-right: 5mm;
+    border-radius: 50%;
+}
+
+
+
+
+/* head section styling codes ends*/
+
+
+
+/* info section codes*/
+
+#info{
+ 
+    padding: 15% 0;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.textcontainer{
+    margin: 5% 2%;
+    border-radius: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 450px;
+    width: 360px;
+    background-color: var(--header-color);
+}
+.textcontainer h3{
+    margin-top: 1cm;
+    display: flex;
+    justify-content: center;
+    color: var(--text-color);
+    font-size: 30px;
+}
+.textcontainer p{
+    width: 300px;
+    margin: 1cm 1cm;
+    font-size: 22px;
+    color: white;
+}
+
+/* info section codes ends*/
+
+
+
+/*skill section codes*/
+
+#skillpart1{
+    padding: 15% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+
+.skilltype{
+    margin: 5% 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 580px;
+    height: 620px;
+    background-color: var(--header-color);
+    border-radius: 29px;
+    
+}
+
+.skilltype h1{
+    font-size: 27px;
+    color: var(--text-color);
+}
+
+.skill{
+    margin-top: 4mm;
+    border-style : Solid;
+    border-color : var(--text-color);
+    border-width : 1px;
+    left : 118px;
+    top : 193px;
+    width : 488px;
+    height : 90px;
+    border-radius : 14px;
+    
+    
+}
+.skillcont{
+    margin: 4mm 4mm;
+}
+.skillh2{
+    font-family : Arial;
+    font-weight : bold;
+    font-size : 13px;
+    line-height : 22px;
+    letter-spacing : 0.01px;
+    color : #24B9B7;
+    color : rgb(36, 185, 183);
+    
+}
+.skillgraph{
+    border-style : Solid;
+    border-color : #24B9B7;
+    border-color : rgba(36, 185, 183, 1);
+    border-width : 1px;
+    
+    width : 90%;
+    height : 19px;
+    border-radius : 9px;
+    -moz-border-radius : 9px;
+    -webkit-border-radius : 9px;
+}
+.skillchart{
+    background : #24B9B7;
+    width : 70%;
+    height : 19px;
+    border-radius : 9px;
+    -moz-border-radius : 9px;
+    -webkit-border-radius : 9px;
+}
+
+
+#skillpart2{
+    
+    padding: 30px 40px;
+    display: flex;
+    
+    
+    
+}
+
+
+/*skill section codes ends*/
+
+
+
+
+/* contact section codes */
+
+
+#contact{
+   padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap-reverse;
+    
+    
+}
+
+.infocontainer{
+    background : #1E212E;
+    margin: 0% 2%;
+  
+    
+    width : 374px;
+    height : 200px;
+    border-radius : 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--text-color);
+    box-shadow: 1px 4px 5px var(--text-color);
+}
+
+.infocontainer *{
+    margin: 10px;
+}
+
+.infocontainer svg{
+    fill:var(--text-color);
+    fill-rule:evenodd;
+}
+
+/* contact section codes ends */
+
+
+
+
+/**media & screens codes/
+
+
+/*bigger than current screen*/
+
+
+
+
+/*smallar than current screen*/
+
+
+@media screen and (max-width:950px) {
+    
+    .headcontianer{
+        
+       position: relative;
+       display: grid;
+       grid-template-columns: 100% 0%;
+
+    }
+    
+
+    .imgcontainer img{
+   
+        opacity: 50%;
+        
+    }
+    .headcontaint{
+        position: relative;
+        
+        padding-top: 70px;
+        padding-left: 140px;
+        z-index: 10;
+       
+    }
+    
+}
+@media screen and (max-width:580px) {
+   
+    #menusvg{
+        display: block;
+    }
+    #head header{
+        
+        background-color: var(--header-color);
+        opacity: 80%;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+    }
+   
+    #head header a{
+        scale: 150%;
+        right: 0%;
+    }
+    #menusvg{
+        margin-right: 0.7cm;
+        margin-top: 0.7cm;
+        scale: 150%;
+    }
+   
+    .headcontianer{
+        
+        position: relative;
+        display: grid;
+        grid-template-columns: 100% 0%;
+ 
+     }
+     
+ 
+     .imgcontainer img{
+    
+         opacity: 50%;
+         
+     }
+     .headcontaint{
+        scale: 80%;
+     }
+   
+
+     #skillpart1{
+       margin:0;
+       padding:0;
+     }
+    .skilltype{
+        margin: 5% 2%;
+       margin-left: 6%;
+       scale: 70%;
+    }
+    .skill{
+        scale: 80%;
+    }
+    
+   
+    .headcontaint{
+        padding-top: 0px;
+        padding-left: 0px;
+        z-index: 10;
+       
+    }
+
+    #headerh11{
+       scale: 100%;
+    }
+    #headerh12{
+        scale: 100%;
+    }
+    #headerh13{
+        scale: 100%;
+    }
+    
+    #headerp{
+        scale: 100%;
+    }
+    
+    .links{
+        margin-top: 1cm;
+        display: flex;
+        
+    }
+    
+    .linkcontainer{
+        scale: 80%;
+    }
+
+    .textcontainer{
+        scale: 90%;
+     }
+    .skilltype{
+        margin: 0% 0%;
+        
+        scale: 70%;
+    }
+    .infocontainer{
+        scale: 70%;
+    }
+    
+       
+
+
+}
+
+@media screen and (max-width:375px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    #head{
+        height: 500px;
+    }
+
+    .imgcontainer{
+        display: none;
+    }
+
+    .headcontianer{
+        display: block;
+    }
+    
+    .headcontaint{
+        scale: 70%;
+     }
+    
+    .textcontainer{
+        scale: 70%;
+        margin: -18% 2%;
+     }
+    .skilltype{
+        margin: -41% 0%;
+        
+        scale: 50%;
+    }
+    .infocontainer{
+        scale: 70%;
+    }
+    
+   
+   
+    
+}
+
+
+
+@media screen and (max-width:334px) {
+
+    .headcontaint{
+        position: relative;
+        right: 40px;
+        scale: 60%;
+        width: 152%;
+    }
+    
+}
+
+
+
+
+
+/*links coloring*/
+
+
+.headlinkcoloring{
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px white;
+}
